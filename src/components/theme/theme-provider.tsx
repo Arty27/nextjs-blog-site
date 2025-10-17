@@ -18,11 +18,10 @@ export function ThemeProvider({
 }: ExtendedThemeProvider) {
   return (
     <NextThemeProvider {...props}>
-      <Header>
-        <main className={cn("container mx-auto px-4", containerClassName)}>
-          {children}
-        </main>
-      </Header>
+      <Header />
+      <main className={cn("container mx-auto px-4", containerClassName)}>
+        {children}
+      </main>
     </NextThemeProvider>
   );
 }

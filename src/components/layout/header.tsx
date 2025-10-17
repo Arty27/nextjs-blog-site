@@ -1,6 +1,6 @@
 "use client";
 
-function Header({ children }: { children: React.ReactNode }) {
+function Header() {
   return <div>Header</div>;
 }
 
